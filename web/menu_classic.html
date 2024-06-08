@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--top navigation bar-->
+    <div class="topnavigation">
+        <div class="topnavigationdiv">
+            <img src="images/logo.png">
+        </div>
+        <a style = "width: 17%;" href="index.html">Home</a>
+        <a style = "width: 17%;" href="aboutus.html">About us</a>
+        <a class = "active" style = "width: 17%;" href="menu.html">Menu</a>
+        <a style = "width: 17%;" href="location.html">Location</a>
+        <a style = "width: 17%;" href="support.html">Support</a>
+    </div>
+    
+    <!--option tags-->
+    <div id="menudiv1">
+        <button class="menubtn" style="left: 0%;" onclick="location.href='menu.html'">ALL</button>
+        <button class="menubtn" style="left: 21.25%;" onclick="location.href='menu_new.html'">NEW</button>
+        <button class="menubtn" style="left: 42.5%; background-color:#FF4141;" onclick="location.href='menu_classic.html'">CLASSIC</button>
+        <button class="menubtn" style="left: 63.75%;" onclick="location.href='menu_mix.html'">MIX</button>
+        <button class="menubtn" style="left: 85%;" onclick="location.href='menu_custom.html'">CUSTOM</button>
+    </div>
+
+    <!--product-->
+    <div id="menudiv2">
+        <a href="menu_st.html">
+            <div class="menudiv3">
+                <img src="images/menu1.png">
+                <p style="bottom: 10px;">strawberry</p>
+            </div>
+        </a>
+        <a href="menu_le.html">
+            <div class="menudiv3">
+                <img src="images/menu8.png">
+                <p style="bottom: 10px;">lemon</p>
+            </div>
+        </a>
+    </div>
+    
+    <!--bottom navigation bar-->
+    <div class="bnva">
+        <div class="bnva1" style="left: 30%; top:30%">
+            <a style = "width: 15%;" href="aboutus.html">About us -></a>
+        </div>
+        <div class="bnva1" style="right: 20%; top:30%">
+            <a style = "width: 15%;" href="menu.html">Menu -></a>
+        </div>
+        <div class="bnva1" style="left: 30%; bottom:30%">
+            <a style = "width: 15%;" href="location.html">Location -></a>
+        </div>
+        <div class="bnva1" style="right: 20%; bottom:30%">
+            <a style = "width: 15%;" href="support.html">Support -></a>
+        </div>
+        <div class="bnva2" style="left: 3%; bottom: 30%">
+            <a href="index.html">
+                <img src="images/logo.png" alt="HTML tutorial" style="width:60px;height:60px">
+            </a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
